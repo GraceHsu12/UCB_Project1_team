@@ -11,23 +11,31 @@ Project Title: Correlation between Stock Price and Housing Prices Near Company H
 Synopsis
 
 
-        We plan to provide evidence based on how a company’s stock price may affect the housing prices in their headquarters’ city. We believe that as a company’s stock fluctuates, the city in which they are headquartered may see a fluctuation in housing prices. We will prove this hypothesis using the following APIs:
+        We plan to provide evidence based on how a company’s stock price may affect the housing prices in their 
+headquarters’ city. We believe that as a company’s stock fluctuates, the city in which they are headquartered 
+may see a fluctuation in housing prices. We will prove this hypothesis using the following APIs:
 * https://www.quandl.com/tools/api
-   * API with stock data for companies listed on any stock exchange. We will use this data to pull information on the selected companies and their stock information
+   * API with stock data for companies listed on any stock exchange. We will use this data to pull information 
+on the selected companies and their stock information
 * https://www.zillow.com/howto/api/BrandingRequirements.htm
-   * API with housing information from 2006 to present. We will grab neighborhood and city information based on the selected companies headquarter cities.
+   * API with housing information from 2006 to present. We will grab neighborhood and city information based 
+on the selected companies headquarter cities.
 
 
 Questions Posed for Research
 
 
-1. What periods (ie. monthly, quarterly) are stock price changes and housing market correlated? Are they correlated?
-   1. How many houses were sold each month/quarter? Do we see periods where stock prices rose and the number of houses were increased? 
+1. What periods (ie. monthly, quarterly) are stock price changes and housing market correlated? Are they 
+correlated?
+   1. How many houses were sold each month/quarter? Do we see periods where stock prices rose and the 
+number of houses were increased? 
    2. Is there a difference in pricing or sales between housing sub-categories (House, Condo, Apartment)?
    3. Observing stock changes to statewide housing prices/purchases/sale prices.
    4. Observing stock changes to nation (US)-wide housing prices/purchases/sale prices
-1. If there is correlation between stock and housing prices, what level of change can be expected from this single variable?
-2. What correlation can we find between our hypothesis and the sub-category of the company? (Industrial/Tech, Finance, Retail, Other)
+1. If there is correlation between stock and housing prices, what level of change can be expected from this 
+single variable?
+2. What correlation can we find between our hypothesis and the sub-category of the company? (Industrial/Tech, 
+Finance, Retail, Other)
 
 
 Execution
@@ -37,21 +45,36 @@ Execution
 
 
 1. Companies
-        We will analyze the top companies who are headquartered in each of the 50 states based on Forbes Fortune 1000 list. All companies will be unique based on the state that the headquarters are based. While some companies will have multiple offices or sites, we are basing this off the main headquarters. This is based on the assumption that the companies largest impact on employment and economy will be in the town they are headquartered. 47 states have companies within the Fortune 1000; so we will be evaluating our data on 47 separate companies.
+        We will analyze the top companies who are headquartered in each of the 50 states based on Forbes 
+Fortune 1000 list. All companies will be unique based on the state that the headquarters are based. 
+While some companies will have multiple offices or sites, we are basing this off the main headquarters. This 
+is based on the assumption that the companies largest impact on employment and economy will be in the town 
+they are headquartered. 47 states have companies within the Fortune 1000; so we will be evaluating our data 
+on 47 separate companies.
 
 
 1. Stock Price
-        We will analyze the company’s stock based on their monthly/quarterly highs and lows for the years we will evaluate. We plan to evaluate up to 12 years of data based on the limits of our datasets. With this in mind, we will most likely run monthly stock highs/lows to give us 288 points of data for each of our companies. This will give us a total of 13,536 points of stock data.
+        We will analyze the company’s stock based on their monthly/quarterly highs and lows for the years we 
+will evaluate. We plan to evaluate up to 12 years of data based on the limits of our datasets. With this in 
+mind, we will most likely run monthly stock highs/lows to give us 288 points of data for each of our companies. 
+This will give us a total of 13,536 points of stock data.
 
 
 1. House Prices
-Housing prices will be evaluated based on the median house price in the city for each company’s headquarters. We will evaluate the median house price based on the dates of our stock data. Since our stock data is our variable that will fluctuate based on high and low data points, we will use those dates to pull our median house prices in the given areas. With this data, we will double our data points to 27,072 which should be sufficient in giving us adequate data information.
+Housing prices will be evaluated based on the median house price in the city for each company’s headquarters. 
+We will evaluate the median house price based on the dates of our stock data. Since our stock data is our 
+variable that will fluctuate based on high and low data points, we will use those dates to pull our median 
+house prices in the given areas. With this data, we will double our data points to 27,072 which should be 
+sufficient in giving us adequate data information.
 
 
 Considerations
 
 
-        Our data might return a delayed reaction to stock price and housing price. If this is the case, we will pull data prior to our housing prices so we can see stock that might affect future prices. We will take this information as it comes - if we believe our hypothesis will return a 6 month delay in housing change, we will grab 6 extra months of data prior to our earliest housing price point.
+        Our data might return a delayed reaction to stock price and housing price. If this is the case, we 
+will pull data prior to our housing prices so we can see stock that might affect future prices. We will take 
+this information as it comes - if we believe our hypothesis will return a 6 month delay in housing change, we 
+will grab 6 extra months of data prior to our earliest housing price point.
 
 
         We will need to set our data to run in a specific order. That order will be executed as follows:
@@ -61,9 +84,12 @@ Considerations
    1. Data will be manually researched and added to csv file
    2. Data will be formatted to pull correctly from the respective APIs
 1. Pull relative stock ticker information
-   1. Will create dataframe around stock price dates and information. Index will be len(dataframe), and columns will be determined based on information we acquire from APIs
+   1. Will create dataframe around stock price dates and information. Index will be len(dataframe), and columns 
+	will be determined based on information we acquire from APIs
 1. Pull housing price data based on stock dates for each companies neighborhood
-   1. Use zillow information to find MEDIAN house price in city the company is headquartered. We will find information based on the dates we create with stock information, or possibly monthly data. 
+   1. Use zillow information to find MEDIAN house price in city the company is headquartered. We will find 
+	information based on the dates we create with stock information, or possibly monthly data. 
 1. Visualize Data
-   1. Data may require multiple plots based on factors we do not know (sub-category, stock price average, overall drop or increase in stock price, etc.).
+   1. Data may require multiple plots based on factors we do not know (sub-category, stock price average, 
+	overall drop or increase in stock price, etc.).
    2. Data plots will be determined as data is collected and combined for ease of viewing analysis.
