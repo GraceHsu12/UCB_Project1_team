@@ -1,21 +1,3 @@
-name,city,state,ticker,quandl_code,industry_type
-Cardinal Health Inc.,Dublin,OH,CAH,CAH,Other
-FedEx Corporation,Memphis,TN,FDX,FDX,Other
-Hawaiian Holdings Inc.,Honolulu,HI,HA,HA,Other
-Las Vegas Sands Corp.,Las Vegas,NV,LVS,LVS,Other
-Sanderson Farms Inc.,Laurel,MS,SAFM,SAFM,Other
-AmerisourceBergen Corporation,Chesterbrook,PA,ABC,ABC,Financial
-Anthem Inc.,Indianapolis,IN,ANTM,ANTM,Financial
-Bank of America Corporation,Charlotte,NC,BAC,BAC,Financial
-Humana Inc.,Louisville,KY,HUM,HUM,Financial
-Principal Financial Group Inc,Des Moines,IA,PFG,PFG,Financial
-Apple Inc.,Cupertino,CA,AAPL,AAPL,TECH
-Amazon.com Inc.,Seattle,WA,AMZN,AMZN,TECH
-Lockheed Martin Corporation,Bethesda,MD,LMT,LMT,TECH
-Verizon Communications Inc.,New York,NY,VZ,VZ,TECH
-Exxon Mobil Corporation,Irving,TX,XOM,XOM,TECH
-CVS Health Corporation,Woonsocket,RI,CVS,CVS,Retail
-Home Depot Inc. (The),Atlanta,GA,HD,HD,Retail
-Nike Inc.,Beaverton,OR,NKE,NKE,Retail
-Walgreens Boots Alliance Inc.,Deerfield,IL,WBA,WBA,Retail
-Walmart Inc.,Bentonville,AR,WMT,WMT,Retail
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fbee980f0848732d85dc2df404e3f36e440f1e8a7c6590e2d648b8dbe549c42
+size 1026
