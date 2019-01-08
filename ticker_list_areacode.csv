@@ -1,21 +1,3 @@
-name,city,state,ticker,quandl_code,industry_type,area_code
-Cardinal Health Inc.,Dublin,OH,CAH,CAH,Other,948
-FedEx Corporation,Memphis,TN,FDX,FDX,Other,12
-Hawaiian Holdings Inc.,Honolulu,HI,HA,HA,Other,34
-Las Vegas Sands Corp.,Las Vegas,NV,LVS,LVS,Other,5
-Sanderson Farms Inc.,Laurel,MS,SAFM,SAFM,Other,12171
-AmerisourceBergen Corporation,Chesterbrook,PA,ABC,ABC,Financial,4722
-Anthem Inc.,Indianapolis,IN,ANTM,ANTM,Financial,11733
-Bank of America Corporation,Charlotte,NC,BAC,BAC,Financial,13
-Humana Inc.,Louisville,KY,HUM,HUM,Financial,55
-Principal Financial Group Inc,Des Moines,IA,PFG,PFG,Financial,85
-Apple Inc.,Cupertino,CA,AAPL,AAPL,TECH,537
-Amazon.com Inc.,Seattle,WA,AMZN,AMZN,TECH,15
-Lockheed Martin Corporation,Bethesda,MD,LMT,LMT,TECH,428
-Verizon Communications Inc.,New York,NY,VZ,VZ,TECH,1
-Exxon Mobil Corporation,Irving,TX,XOM,XOM,TECH,75
-CVS Health Corporation,Woonsocket,RI,CVS,CVS,Retail,740
-Home Depot Inc. (The),Atlanta,GA,HD,HD,Retail,11739
-Nike Inc.,Beaverton,OR,NKE,NKE,Retail,214
-Walgreens Boots Alliance Inc.,Deerfield,IL,WBA,WBA,Retail,12621
-Walmart Inc.,Bentonville,AR,WMT,WMT,Retail,1589
+version https://git-lfs.github.com/spec/v1
+oid sha256:968acb8169d712832575ee0de4ff22f8ffd0ba2ab25598d1602e7ac779c15ca9
+size 1136
