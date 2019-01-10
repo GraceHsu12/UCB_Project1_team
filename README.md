@@ -16,7 +16,7 @@ Could the housing market be predicted by the stock market? From the Forbes Fortu
 Questions Posed for Research
 
 Hypothesis: As stock fluctuates for a company, the city in which they are headquartered will see a fluctuation in housing prices.
-1.	What periods (ie. monthly, quarterly) are stock price changes and housing market correlated from years 2005 to 2017? Are they correlated?
+1.	What periods (ie. monthly, quarterly) are stock price changes and housing market correlated from years 2005 to 2015? Are they correlated?
 a.	Is there a difference in pricing between housing sub-categories (House, Condo, Apartment)?
 b.	Observing stock changes to the company’s headquarter state housing prices.
 2.	If there is correlation between stock and housing prices, what level of change can be expected from this single variable?
@@ -25,7 +25,7 @@ b.	Observing stock changes to the company’s headquarter state housing prices.
 Secondary Question:
 
 Hypothesis: Stock market increases lead to an increased number of property (houses, condos, apartments) sold.
-a.	How much property was sold each month/quarter over the years 2005 to 2017? 
+a.	How much property was sold each month/quarter over the years 2005 to 2015? 
 b.	Which months/quarter had the greatest number of properties sold by category (houses, condos, apartments)? 
 c.	Are there periods where stock prices rose and the number of houses sold were increased? 
 
@@ -38,7 +38,7 @@ Five top companies per industry (Industrial/Tech, Finance, Retail, Other) were c
 
 
 2.	Stock Price
-	Analysis will be performed on the company’s stock based on their monthly close price over the course of 12 years (2005-2017).
+	Analysis will be performed on the company’s stock based on their monthly close price over the course of 10 years (2005-2015).
 
 3.	House Prices
 Housing prices will be evaluated based on the median house price in the city for each company’s headquarters. The median house price based on the dates of stock data will be used. Since stock data is the variable that will fluctuate based on high and low data points, stock dates will be used to pull median house prices in the given areas. 
