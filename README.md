@@ -11,7 +11,7 @@ Project Title: Correlation between Stock Price and Housing Prices Near Company H
 
 Synopsis
 	
-	Could the housing market be predicted by the stock market? From the Forbes Fortune 2017 data, Business Insider mapped out the biggest company (by revenue) headquartered in each state. This led to the hypothesis that these Fortune 1000 company’s stock affect the housing prices in their headquarters’ city. Twenty companies (five from each category: Tech, Finance, Retail, Other) were chosen at random from the list provided by Business Insider to evaluate if there are relationships between company stock prices and housing prices, and related questions as the data admits.
+Could the housing market be predicted by the stock market? From the Forbes Fortune 2017 data, Business Insider mapped out the biggest company (by revenue) headquartered in each state. This led to the hypothesis that these Fortune 1000 company’s stock affect the housing prices in their headquarters’ city. Twenty companies (five from each category: Tech, Finance, Retail, Other) were chosen at random from the list provided by Business Insider to evaluate if there are relationships between company stock prices and housing prices, and related questions as the data admits.
 
 Questions Posed for Research
 
@@ -31,7 +31,7 @@ c.	Are there periods where stock prices rose and the number of houses sold were 
 
 Execution
 
-	Analysis will be completed with the following parameters:
+Analysis will be completed with the following parameters:
 
 1.	Companies
 Five top companies per industry (Industrial/Tech, Finance, Retail, Other) were chosen at random from the list provided by Forbes Fortune 1000 for a total of twenty companies. All companies will be unique based on the state that the headquarters are based. While some companies will have multiple offices or sites, we are basing the housing market impact of only the main headquarters’ city. This is based on the assumption that the company’s largest impact on employment and economy will be in the town they are headquartered.
@@ -56,9 +56,9 @@ Article from Business Insider:
 
 Considerations
 
-	The data might return a delayed reaction to stock price and housing price. If this is the case, data prior to our housing prices will be pulled so stock that might affect future prices may be observed. Analysis will be on-going. 
+The data might return a delayed reaction to stock price and housing price. If this is the case, data prior to our housing prices will be pulled so stock that might affect future prices may be observed. Analysis will be on-going. 
 
-	The data set will be analyzed in the following order:
+The data set will be analyzed in the following order:
 
 1.	Find company name, stock ticker name and headquartered city
 a)	Data will be manually researched and added to a csv file
