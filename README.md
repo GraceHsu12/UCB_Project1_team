@@ -22,13 +22,6 @@ b.	Observing stock changes to the company’s headquarter state housing prices.
 2.	If there is correlation between stock and housing prices, what level of change can be expected from this single variable?
 3.	What correlation can we find between our hypothesis and the sub-category of the company? (Industrial/Tech, Finance, Retail, Other)
 
-Secondary Question:
-
-Hypothesis: Stock market increases lead to an increased number of property (houses, condos, apartments) sold.
-a.	How much property was sold each month/quarter over the years 2005 to 2015? 
-b.	Which months/quarter had the greatest number of properties sold by category (houses, condos, apartments)? 
-c.	Are there periods where stock prices rose and the number of houses sold were increased? 
-
 Execution
 
 Analysis will be completed with the following parameters:
@@ -56,7 +49,7 @@ Article from Business Insider:
 
 Considerations
 
-The data might return a delayed reaction to stock price and housing price. If this is the case, data prior to our housing prices will be pulled so stock that might affect future prices may be observed. Analysis will be on-going. 
+The data might return a delayed reaction to stock price and housing price. If this is the case, data prior to the housing prices will be pulled so stock that might affect future prices may be observed. Analysis will be on-going. 
 
 The data set will be analyzed in the following order:
 
