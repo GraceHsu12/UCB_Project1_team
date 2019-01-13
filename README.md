@@ -17,8 +17,6 @@ Questions Posed for Research
 
 Hypothesis: As stock fluctuates for a company, the city in which they are headquartered will see a fluctuation in housing prices.
 1.	What periods (ie. monthly, quarterly) are stock price changes and housing market correlated from years 2005 to 2015? Are they correlated?
-a.	Is there a difference in pricing between housing sub-categories (House, Condo, Apartment)?
-b.	Observing stock changes to the company’s headquarter state housing prices.
 2.	If there is correlation between stock and housing prices, what level of change can be expected from this single variable?
 3.	What correlation can we find between our hypothesis and the sub-category of the company? (Industrial/Tech, Finance, Retail, Other)
 
@@ -27,7 +25,7 @@ Execution
 Analysis will be completed with the following parameters:
 
 1.	Companies
-Five top companies per industry (Industrial/Tech, Finance, Retail, Other) were chosen at random from the list provided by Forbes Fortune 1000 for a total of twenty companies. All companies will be unique based on the state that the headquarters are based. While some companies will have multiple offices or sites, we are basing the housing market impact of only the main headquarters’ city. This is based on the assumption that the company’s largest impact on employment and economy will be in the town they are headquartered.
+Five top companies per industry (Industrial/Tech, Finance, Retail, Other) were chosen at random from the list provided by Forbes Fortune 1000 for a total of twenty companies. All companies will be unique based on the state that the headquarters are based. While some companies will have multiple offices or sites, analysis will be based on the housing market impact of only the main headquarters’ city. This is based on the assumption that the company’s largest impact on employment and economy will be in the town they are headquartered.
 
 
 2.	Stock Price
@@ -54,12 +52,12 @@ The data might return a delayed reaction to stock price and housing price. If th
 The data set will be analyzed in the following order:
 
 1.	Find company name, stock ticker name and headquartered city
-a)	Data will be manually researched and added to a csv file
-b)	Data will be formatted to pull correctly from the respective APIs
+	a)	Data will be manually researched and added to a csv file
+	b)	Data will be formatted to pull correctly from the respective APIs
 2.	Pull relative stock ticker information
-a)	Will create dataframe around stock price dates and information. Index will be len(dataframe), and columns will be determined based on information we acquire from APIs
+	a)	Will create dataframe around stock price dates and information. Index will be len(dataframe), and columns will be determined based on information we acquire from APIs
 3.	Pull housing price data based on stock dates for each companies neighborhood
-a)	Use zillow information to find MEDIAN house price in city the company is headquartered. We will find information based on the dates we create with stock information, or possibly monthly data. 
+	a)	Use QUANDL API information to find MEDIAN house sold price in city the company is headquartered per month. Queries will based on the dates gathered with stock information, or possibly monthly data. 
 4.	Visualize Data
-a)	Data may require multiple plots based on factors we do not know (sub-category, stock price average, overall drop or increase in stock price, etc.).
-b)	Data plots will be determined as data is collected and combined for ease of viewing analysis.
+	a)	Data may require multiple plots based on factors we do not know (sub-category, stock price average, overall drop or increase in stock price, etc.).
+	b)	Data plots will be determined as data is collected and combined for ease of viewing analysis.
