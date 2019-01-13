@@ -16,7 +16,7 @@ Could the housing market be predicted by the stock market? From the Forbes Fortu
 Questions Posed for Research
 
 Hypothesis: As stock fluctuates for a company, the city in which they are headquartered will see a fluctuation in housing prices.
-1.	What periods (ie. monthly, quarterly) are stock price changes and housing market correlated from years 2005 to 2015? Are they correlated?
+1.	Are there correlations between stock price  and housing market from years 2005 to 2015?
 2.	If there is correlation between stock and housing prices, what level of change can be expected from this single variable?
 3.	What correlation can we find between our hypothesis and the sub-category of the company? (Industrial/Tech, Finance, Retail, Other)
 
