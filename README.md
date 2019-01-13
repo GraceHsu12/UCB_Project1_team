@@ -52,12 +52,13 @@ The data might return a delayed reaction to stock price and housing price. If th
 The data set will be analyzed in the following order:
 
 1.	Find company name, stock ticker name and headquartered city
-	a)	Data will be manually researched and added to a csv file
-	b)	Data will be formatted to pull correctly from the respective APIs
+	•	Data will be manually researched and added to a csv file
+	•	Data will be formatted to pull correctly from the respective APIs
+	
 2.	Pull relative stock ticker information
-	a)	Will create dataframe around stock price dates and information. Index will be len(dataframe), and columns will be determined based on information we acquire from APIs
+	•	Will create dataframe around stock price dates and information. Index will be len(dataframe), and columns will be determined based on information we acquire from APIs
 3.	Pull housing price data based on stock dates for each companies neighborhood
-	a)	Use QUANDL API information to find MEDIAN house sold price in city the company is headquartered per month. Queries will based on the dates gathered with stock information, or possibly monthly data. 
+	•	Use QUANDL API information to find MEDIAN house sold price in city the company is headquartered per month. Queries will based on the dates gathered with stock information, or possibly monthly data. 
 4.	Visualize Data
-	a)	Data may require multiple plots based on factors we do not know (sub-category, stock price average, overall drop or increase in stock price, etc.).
-	b)	Data plots will be determined as data is collected and combined for ease of viewing analysis.
+	•	Data may require multiple plots based on factors we do not know (sub-category, stock price average, overall drop or increase in stock price, etc.).
+	•	Data plots will be determined as data is collected and combined for ease of viewing analysis.
