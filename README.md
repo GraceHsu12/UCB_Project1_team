@@ -37,12 +37,9 @@ Housing prices will be evaluated based on the median house price in the city for
 Resources
 
 The following APIs will be utilized to gather stock and housing data:
-•	https://www.quandl.com/tools/api
-•	API with stock data for companies listed on any stock exchange. This data will be used to pull information on the selected companies and their stock information
-•	https://blog.quandl.com/api-for-housing-data
-•	API with housing information from 2006 to present. Neighborhood and city information based on the selected companies headquarter cities will be used.
-Article from Business Insider:
-•	https://www.businessinsider.com/biggest-company-almost-every-us-state-map-2018-5
+* [QUANDL API with stock data](https://www.quandl.com/tools/api) for companies listed on any stock exchange. This data will be used to pull information on the selected companies and their stock information 
+* [QUANDL API with housing information](https://blog.quandl.com/api-for-housing-data) from 2006 to present. Neighborhood and city information based on the selected companies headquarter cities will be used.
+* Article from [Business Insider](https://www.businessinsider.com/biggest-company-almost-every-us-state-map-2018-5)
 
 
 Considerations
@@ -52,13 +49,13 @@ The data might return a delayed reaction to stock price and housing price. If th
 The data set will be analyzed in the following order:
 
 1.	Find company name, stock ticker name and headquartered city
-	•	Data will be manually researched and added to a csv file
-	•	Data will be formatted to pull correctly from the respective APIs
+* Data will be manually researched and added to a csv file
+* Data will be formatted to pull correctly from the respective APIs
 	
 2.	Pull relative stock ticker information
-	•	Will create dataframe around stock price dates and information. Index will be len(dataframe), and columns will be determined based on information we acquire from APIs
+* Will create dataframe around stock price dates and information. Index will be len(dataframe), and columns will be determined based on information we acquire from APIs
 3.	Pull housing price data based on stock dates for each companies neighborhood
-	•	Use QUANDL API information to find MEDIAN house sold price in city the company is headquartered per month. Queries will based on the dates gathered with stock information, or possibly monthly data. 
+* Use QUANDL API information to find MEDIAN house sold price in city the company is headquartered per month. Queries will based on the dates gathered with stock information, or possibly monthly data. 
 4.	Visualize Data
-	•	Data may require multiple plots based on factors we do not know (sub-category, stock price average, overall drop or increase in stock price, etc.).
-	•	Data plots will be determined as data is collected and combined for ease of viewing analysis.
+* Data may require multiple plots based on factors we do not know (sub-category, stock price average, overall drop or increase in stock price, etc.).
+* Data plots will be determined as data is collected and combined for ease of viewing analysis.
