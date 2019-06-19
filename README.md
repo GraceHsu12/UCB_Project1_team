@@ -25,13 +25,16 @@ Execution
 Analysis will be completed with the following parameters:
 
 1.	Companies
+
 Five top companies per industry (Industrial/Tech, Finance, Retail, Other) were chosen at random from the list provided by Forbes Fortune 1000 for a total of twenty companies. All companies will be unique based on the state that the headquarters are based. While some companies will have multiple offices or sites, analysis will be based on the housing market impact of only the main headquarters’ city. This is based on the assumption that the company’s largest impact on employment and economy will be in the town they are headquartered.
 
 
 2.	Stock Price
+
 	Analysis will be performed on the company’s stock based on their monthly close price over the course of 10 years (2005-2015).
 
 3.	House Prices
+
 Housing prices will be evaluated based on the median house price in the city for each company’s headquarters. The median house price based on the dates of stock data will be used. Since stock data is the variable that will fluctuate based on high and low data points, stock dates will be used to pull median house prices in the given areas. 
 
 Resources
